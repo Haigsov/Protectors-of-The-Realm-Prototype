@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Kevin MacLeod - Camille Saint-Saëns Danse Macabre.mp3-da2a0f6b9fb40bb7ff8c808ce383f600.mp3str"
+
+[deps]
+
+source_file="res://Kevin MacLeod - Camille Saint-Saëns Danse Macabre.mp3"
+dest_files=[ "res://.import/Kevin MacLeod - Camille Saint-Saëns Danse Macabre.mp3-da2a0f6b9fb40bb7ff8c808ce383f600.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
