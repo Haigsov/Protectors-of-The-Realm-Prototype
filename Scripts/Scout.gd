@@ -4,7 +4,7 @@ extends Area2D
 const bullet_scene = preload("res://Scenes/Bullet.tscn")
 var gun_cooling = false
 var cooldown_time:float = 0.3
-var speed = 40
+var speed = 80
 var velocity = Vector2()
 
 func move():

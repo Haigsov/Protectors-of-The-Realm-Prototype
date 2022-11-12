@@ -1,10 +1,9 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Kevin MacLeod - Camille Saint-Saëns Danse Macabre.mp3" type="AudioStream" id=1]
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scenes/Star.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Scenes/Game.gd" type="Script" id=4]
-[ext_resource path="res://Scenes/Spawner.gd" type="Script" id=5]
 
 [node name="Game" type="Node2D"]
 script = ExtResource( 4 )
@@ -35,7 +34,7 @@ position = Vector2( 37, 159 )
 position = Vector2( 193, 172 )
 
 [node name="Star7" parent="ColorRect" instance=ExtResource( 3 )]
-position = Vector2( 49, 50 )
+position = Vector2( 65, 48 )
 
 [node name="Star8" parent="ColorRect" instance=ExtResource( 3 )]
 position = Vector2( 126, 199 )
@@ -70,6 +69,9 @@ position = Vector2( 130, 636 )
 [node name="Star27" parent="ColorRect" instance=ExtResource( 3 )]
 position = Vector2( 145, 510 )
 
+[node name="Star28" parent="ColorRect" instance=ExtResource( 3 )]
+position = Vector2( 195, 44 )
+
 [node name="Player" parent="." instance=ExtResource( 2 )]
 position = Vector2( 230, 560 )
 
@@ -77,24 +79,5 @@ position = Vector2( 230, 560 )
 stream = ExtResource( 1 )
 
 [node name="Spawner" type="Node2D" parent="."]
-script = ExtResource( 5 )
 
 [node name="SpawnPoints" type="Node2D" parent="Spawner"]
-
-[node name="Spawnpoint1" type="Node2D" parent="Spawner/SpawnPoints"]
-position = Vector2( 65, 0 )
-
-[node name="Spawnpoint2" type="Node2D" parent="Spawner/SpawnPoints"]
-position = Vector2( 130, 0 )
-
-[node name="Spawnpoint3" type="Node2D" parent="Spawner/SpawnPoints"]
-position = Vector2( 195, 0 )
-
-[node name="Spawnpoint4" type="Node2D" parent="Spawner/SpawnPoints"]
-position = Vector2( 260, 0 )
-
-[node name="Spawnpoint5" type="Node2D" parent="Spawner/SpawnPoints"]
-position = Vector2( 325, 0 )
-
-[node name="Spawnpoint6" type="Node2D" parent="Spawner/SpawnPoints"]
-position = Vector2( 390, 0 )

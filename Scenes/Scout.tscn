@@ -4,7 +4,6 @@
 [ext_resource path="res://Scripts/Scout.gd" type="Script" id=2]
 
 [node name="Scout" type="Area2D"]
-position = Vector2( 175, 242 )
 rotation = 1.5708
 script = ExtResource( 2 )
 __meta__ = {
@@ -21,3 +20,4 @@ polygon = PoolVector2Array( 29, 0.999893, 27, 5.99989, 13.0001, 13, 2.00005, 12,
 [node name="Rotation" type="Node2D" parent="."]
 
 [node name="Position2D" type="Position2D" parent="."]
+position = Vector2( 28, 0 )
